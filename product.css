@@ -1,0 +1,246 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #f0f1e8;
+}
+
+*::selection {
+  background: #c0c2bc;
+}
+
+.line p {
+  color: rgb(239, 231, 114);
+  background-color: black;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 115%;
+}
+
+.line p::selection {
+  background: #323221;
+}
+
+.photo .img1 a img {
+  margin-right: 28rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo .img3 a img {
+  margin-left: 28rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo .img4 a img {
+  margin-left: 1.2rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo {
+  justify-content: center;
+  display: flex;
+  padding-top: 0.7rem;
+}
+
+.nav a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: rgb(56, 58, 59);
+}
+
+.nav {
+  margin-top: 2rem;
+  margin-left: 35rem;
+}
+
+.details h1{
+  font-weight: normal;
+  margin-left: 12.5rem;
+  font-size: 50px;
+  margin-top: 2rem;
+}
+
+.product {
+  margin-left: 12.5rem;
+  margin-top: 2rem;
+  background-color: #f0ede4;
+  margin-right: 66.7rem;
+  border-radius: 0.8rem;
+  margin-bottom: 5rem;
+  box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.product a {
+  text-decoration: none;
+}
+
+.product img {
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+
+.product .dis p {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  background-color: #f0ede4;
+  padding-top: 1.5rem;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dis .p{
+  padding-bottom: 2rem;
+}
+
+.join .community h2{
+  text-align: center;
+  font-size: 53px;
+  font-weight: normal;
+  color: #fdfbf7;
+  background-color: black;
+  padding-top: 2.5rem;
+  padding-bottom: 1.7rem;
+}
+
+.join .community p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fdfbf7;
+  background-color: black;
+  padding-bottom: 1.5rem;
+}
+
+.join {
+  background-color: black;
+}
+
+.join input{
+  margin-left: 36rem;
+  margin-bottom: 3rem;
+  border-color: #ffffff;
+  border-width: 0.02em;
+  color: white;
+  font-size: 16px;
+  color: #fdfbf7;
+  background-color: black;
+  border-radius: 0.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 8.5rem;
+}
+
+.community h2::selection{
+  background: #323221;
+}
+
+.community p::selection{
+  background: #323221;
+}
+
+.join input::selection{
+  background: #323221;
+}
+
+.links {
+  display: flex;
+}
+
+.links .hyper h3 {
+  font-weight: normal;
+  font-size: 23px;
+  margin-left: 13rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.links .hyper ul {
+  margin-bottom: 4rem;
+}
+
+.links .hyper ul a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  text-decoration: none;
+  padding-top: 1rem;
+  margin-left: 13rem;
+  /* margin-right: 25.6rem; */
+  color: black;
+  font-size: 13px;
+}
+
+.links img {
+  margin-top: 3rem;
+  margin-left: 25.6rem;
+}
+
+.links .add p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 25rem;
+  margin-top: 1rem;
+  /* margin-right: 18rem; */
+  line-height: 2rem;
+}
+
+.links .add a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 0.3rem;
+  color: black;
+}
+
+.add .insta {
+  margin-left: -0.8rem;
+  margin-top: -2rem;
+}
+
+.footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 4rem;
+  margin-bottom: 0.1rem;
+  font-size: 11px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding-top: 0px; 
+}
+
+#fixedButton {
+  position: fixed;
+  bottom: 20px;
+  font-size: 25px;
+  right: 20px;
+  padding: 15px 13px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+}
+
+#fixedButton img{
+  padding-right: 0.5rem;
+  background-color: #000000;
+}

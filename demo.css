@@ -1,0 +1,19 @@
+/* Hide the search container by default */
+#searchContainer {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+/* Style for the search input */
+#searchInput {
+  padding: 8px;
+  width: 200px;
+}
+
+/* Style for the search icon */
+.search-icon {
+  cursor: pointer;
+  color: #888;
+}

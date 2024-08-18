@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Bar Pop-up</title>
+  <link rel="stylesheet" href="demo.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body>
+
+  <!-- Button to trigger search bar -->
+  <i class="fas fa-search search-trigger" onclick="toggleSearch()"></i>
+
+  <!-- Search bar -->
+  <div class="search-container" id="searchContainer">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <i class="fas fa-search search-icon" onclick="search()"></i>
+  </div>
+
+  <div id="searchResults">
+    <!-- Search results will be displayed here -->
+  </div>
+
+  <script src="demo.js"></script>
+</body>
+</html>

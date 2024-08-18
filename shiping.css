@@ -1,0 +1,232 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #f0f1e8;
+}
+
+*::selection {
+  background: #c0c2bc;
+}
+
+.line p {
+  color: rgb(239, 231, 114);
+  background-color: black;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 115%;
+}
+
+.line p::selection {
+  background: #323221;
+}
+
+.photo .img1 a img {
+  margin-right: 28rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo .img3 a img {
+  margin-left: 28rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo .img4 a img {
+  margin-left: 1.2rem;
+  margin-top: 3rem;
+  user-select: none;
+}
+
+.photo {
+  justify-content: center;
+  display: flex;
+  padding-top: 0.7rem;
+}
+
+.nav a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: rgb(56, 58, 59);
+}
+
+.nav {
+  margin-top: 2rem;
+  margin-left: 35rem;
+}
+
+.write h1 {
+  font-weight: normal;
+  color: #3C3C3A;
+  margin-left: 25rem;
+  font-size: 68px;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.write p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3C3C3A;
+  line-height: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-bottom: 4rem;
+}
+
+.block2 .name h2 {
+  text-align: center;
+  font-size: 53px;
+  font-weight: normal;
+  color: #fdfbf7;
+  background-color: black;
+  padding-top: 2.5rem;
+  padding-bottom: 1.7rem;
+}
+
+.block2 .name p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #fdfbf7;
+  background-color: black;
+  padding-bottom: 1.5rem;
+}
+
+.name h2::selection {
+  background: #323221;
+}
+
+.name p::selection {
+  background: #323221;
+}
+
+.block2 input::selection {
+  background: #323221;
+}
+
+.block2 {
+  background-color: black;
+}
+
+.block2 input {
+  margin-left: 36rem;
+  margin-bottom: 3rem;
+  border-color: #ffffff;
+  border-width: 0.02em;
+  color: white;
+  font-size: 16px;
+  color: #fdfbf7;
+  background-color: black;
+  border-radius: 0.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 8.5rem;
+}
+
+.createAc a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+.links {
+  display: flex;
+}
+
+.links .hyper h3 {
+  font-weight: normal;
+  font-size: 23px;
+  margin-left: 13rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.links .hyper ul {
+  margin-bottom: 4rem;
+}
+
+.links .hyper ul a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  text-decoration: none;
+  padding-top: 1rem;
+  margin-left: 13rem;
+  /* margin-right: 25.6rem; */
+  color: black;
+  font-size: 13px;
+}
+
+.links img {
+  margin-top: 3rem;
+  margin-left: 25.6rem;
+}
+
+.links .add p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 25rem;
+  margin-top: 1rem;
+  /* margin-right: 18rem; */
+  line-height: 2rem;
+}
+
+.links .add a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 0.3rem;
+  color: black;
+}
+
+.add .insta {
+  margin-left: -0.8rem;
+  margin-top: -2rem;
+}
+
+.footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 4rem;
+  margin-bottom: 0.1rem;
+  font-size: 11px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding-top: 0px; 
+}
+
+#fixedButton {
+  position: fixed;
+  bottom: 20px;
+  font-size: 25px;
+  right: 20px;
+  padding: 15px 13px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+}
+
+#fixedButton img{
+  padding-right: 0.5rem;
+  background-color: #000000;
+}

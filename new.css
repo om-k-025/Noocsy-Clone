@@ -1,0 +1,7 @@
+.parent{
+    margin: 3rem;
+}
+
+.parent button:hover{
+    cursor: pointer;
+}
